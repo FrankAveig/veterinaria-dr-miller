@@ -1,0 +1,449 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ulvjll');
+  src:  url('../fonts/icomoon.eot?ulvjll#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ulvjll') format('truetype'),
+    url('../fonts/icomoon.woff?ulvjll') format('woff'),
+    url('../fonts/icomoon.svg?ulvjll#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-envelope-o:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-tablet:before {
+  content: "\e902";
+}
+.icon-mobile:before {
+  content: "\e902";
+}
+.icon-location:before {
+  content: "\e903";
+}
+.icon-map:before {
+  content: "\e903";
+}
+.icon-instagram1:before {
+  content: "\e906";
+}
+.icon-brand:before {
+  content: "\e906";
+}
+.icon-social:before {
+  content: "\e906";
+}
+.icon-menu:before {
+  content: "\e901";
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  max-width: 1366px;
+  margin: auto;
+}
+header{
+  background: linear-gradient(90deg, rgba(32,32,52,1) 23%, rgba(84,97,101,1) 100%); 
+  color: white;
+}
+header .contactosHeader div i{
+  color: #f15e42;
+}
+header .containerHeader1{
+  background: rgba(255,255,255,.1)
+}
+header .containerHeader2{
+  margin-top: 1rem;
+}
+header .containerHeader1,.containerHeader2{
+  display: flex;
+  justify-content: space-around;
+}
+header .contactosHeader{
+display: flex;
+}
+header .contactosHeader div{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+header .contactosHeader div h3{
+  font-size: 1.4rem;
+  margin-right: 3rem;
+
+}
+header .contactosHeader i{
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+header .redesSociales{
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  align-items: center;
+  display: flex;
+}
+header .redesSociales i{
+  margin-left: 2rem;
+}
+header .containerHeader2{
+display: flex;
+}
+header .containerHeader2 figure{
+  width: 15rem;
+  margin: 0;
+}
+header .containerHeader2 figure img{
+  width: 100%;
+}
+header .navegacion{
+display: flex;
+align-items: center;
+}
+header .navegacion ul{
+  display: flex;
+}
+.menu > ul:nth-child(1) > li:nth-child(1){
+  margin-left: 0;
+}
+header .navegacion ul li{
+  list-style: none;
+  margin-left: 6rem;
+  font-size: 1.4rem;
+}
+header .navegacion ul a{
+  text-decoration: none;
+  color:white;
+}
+.hero figure{
+  margin: 0;
+}
+.hero figure img{
+  width: 100%;
+}
+
+main .descripcion1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+}
+main .descripcion1 img{
+  width: 100%;
+}
+main .descripcion1 .textoDescripcion h1{
+  font-size: 4.4rem;
+}
+main .descripcion1 .textoDescripcion p{
+  width: 70%;
+  font-size: 1.6rem;
+  line-height: 2;
+  color:#707070;
+}
+button{
+  filter: drop-shadow(6px 3px 3px #3F4144);
+  font-size: 1.8rem;
+  height: 4rem;
+  width: 15rem;
+  border-radius: 2rem;
+  border: unset;
+  background:#316c7a;
+  color: white;
+  font-family: 'alata';
+  padding: 0;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+main .caracteristicas{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+ 
+}
+main .caracteristicas .textoFinalCaracteristica{
+  text-align: center;
+  margin-top: 5rem;
+}
+main .caracteristicas .textoFinalCaracteristica .areaContacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+main .caracteristicas .textoFinalCaracteristica button{
+  margin: 0;
+}
+main .caracteristicas .textoFinalCaracteristica .areaContacto h3{
+  margin: 0 0 0 3rem;
+  font-size: 1.6rem;
+}
+main .caracteristicas .textoFinalCaracteristica  p{
+width: 60%;
+margin: auto;
+font-size: 1.6rem;
+}
+
+main .caracteristicas .contenedorCaracteristica{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 80%;
+  margin: auto;
+}
+main .caracteristicas .caracteristica1{
+background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#98cb46 100%);
+
+}
+main .caracteristicas .caracteristica2{
+  background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#f49283 100%);
+ 
+}
+main .caracteristicas .caracteristica3{
+  background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#4ba7e6 100%);
+}
+main .caracteristicas .contenedorCaracteristica .textoCaracteristica{
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+main .caracteristicas .contenedorCaracteristica .textoCaracteristica h2{
+  font-size: 3.5rem;
+}
+main .caracteristicas .contenedorCaracteristica .textoCaracteristica p{
+  font-size: 1.8rem;
+}
+main .caracteristicas .caracteristica{
+  height: 35.5rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+main .caracteristicas .contenedorCaracteristica figure{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+main .caracteristicas .contenedorCaracteristica .caracteristica3 figure img{
+  width: 100%;
+}
+main .caracteristicas .contenedorCaracteristica .caracteristica  figure img{
+
+  height: 100%;
+  position: relative;
+  z-index: -1;
+}
+main .servicios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  
+}
+main .servicios h2{
+  font-size: 3.2rem;
+}
+main .servicios .contenedorServicios{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 80%;
+  margin: auto;
+  gap: 3rem;
+}
+main .servicios .contenedorServicios .servicio{
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 16px 0 rgba(39,48,75,.15);
+}
+main .servicios .contenedorServicios .servicio figure{
+  margin-right: 0;
+}
+
+main .servicios .contenedorServicios .servicio img{
+  width: 70%;
+}
+main .servicios .contenedorServicios .servicio h3{
+  font-size: 2.4rem;
+  color: #4ba7e6;
+}
+main .servicios .contenedorServicios .servicio p{
+  font-size: 1.4rem;
+  line-height: 2;
+  color:#707070;
+  width: 90%;
+}
+main .aboutUs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 10rem;
+  background: #316c7a;
+}
+main .aboutUs figure{
+  margin: 0 4rem 0 0;
+  display: flex;
+}
+main .aboutUs figure img{
+  width: 100%;
+}
+main .aboutUs .textoAboutUs h2,h3{
+  font-size: 4.2rem;
+  color: white;
+}
+main .aboutUs .textoAboutUs p{
+  width: 70%;
+  font-size: 1.6rem;
+  line-height: 2;
+  color:#707070;
+  color: white;
+}
+main .nuestroEquipo h2{
+  font-size: 4.2rem;
+  text-align: center;
+}
+main .contenedorEquipo{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 10rem;
+}
+main .nuestroEquipo .contenedorEquipo .miembro{
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 0 16px 0 rgba(39,48,75,.15);
+}
+main .nuestroEquipo .contenedorEquipo .miembro1{
+  margin-right: 0;
+}
+main .nuestroEquipo .contenedorEquipo .miembro3{
+  margin-left: 0;
+}
+main .nuestroEquipo .contenedorEquipo h2{
+  font-size: 3.2rem;
+  margin-bottom: .5rem;
+}
+main .nuestroEquipo .contenedorEquipo p{
+  font-size: 2.4rem;
+  text-align: center;
+}
+main .nuestroEquipo figure{
+  margin-top: 3.5rem;
+}
+main .nuestroEquipo img{
+  width: 100%;
+}
+
+footer{
+  background: linear-gradient(90deg, rgba(32,32,52,1) 23%, rgba(84,97,101,1) 100%); 
+  color: white;
+}
+footer .contactosHeader div i{
+  color: #f15e42;
+}
+footer .containerHeader1{
+  background: rgba(255,255,255,.1)
+}
+footer .containerHeader2{
+  margin-top: 1rem;
+}
+footer .containerHeader1,.containerHeader2{
+  display: flex;
+  justify-content: space-around;
+}
+footer .contactosHeader{
+display: flex;
+}
+footer .contactosHeader div{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+footer .contactosHeader div h3{
+  font-size: 1.4rem;
+  margin-right: 3rem;
+}
+footer .contactosHeader i{
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+footer .redesSociales{
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  align-items: center;
+  display: flex;
+}
+footer .redesSociales i{
+  margin-left: 2rem;
+}
+ .final{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin-bottom: 3rem;
+}
+map{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+map h3{
+  color: black;
+  font-size: 3.2rem;
+  margin-top: 0;
+}
+.horario{
+  grid-column-start: 1;
+ grid-row-start: 1;
+ text-align: center;
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .horario h3{
+  margin: 1rem 0 0 0;
+  font-size: 3.4rem;
+  color: black;
+}
+.horario h4{
+  font-size: 2.2rem;
+  margin:1rem;
+}
+body > main > section.final > div > h4:nth-child(5){
+  margin-top: 3rem;
+}
+.horario p{
+  font-size:1.6rem;
+  margin: 0;
+}
+
+/* background-color: transparent;
+background-image: linear-gradient(180deg,rgba(0,0,0,0) 0%,#98cb46 100%);
+opacity: .8; */

@@ -1,0 +1,232 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ulvjll');
+  src:  url('../fonts/icomoon.eot?ulvjll#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ulvjll') format('truetype'),
+    url('../fonts/icomoon.woff?ulvjll') format('woff'),
+    url('../fonts/icomoon.svg?ulvjll#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-envelope-o:before {
+  content: "\e900";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-tablet:before {
+  content: "\e902";
+}
+.icon-mobile:before {
+  content: "\e902";
+}
+.icon-location:before {
+  content: "\e903";
+}
+.icon-map:before {
+  content: "\e903";
+}
+.icon-instagram1:before {
+  content: "\e906";
+}
+.icon-brand:before {
+  content: "\e906";
+}
+.icon-social:before {
+  content: "\e906";
+}
+.icon-menu:before {
+  content: "\e901";
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  max-width: 1366px;
+  margin: auto;
+}
+header{
+  background: linear-gradient(90deg, rgba(32,32,52,1) 23%, rgba(84,97,101,1) 100%); 
+  color: white;
+}
+header .contactosHeader div i{
+  color: #f15e42;
+}
+header .containerHeader1{
+  background: rgba(255,255,255,.1)
+}
+header .containerHeader2{
+  margin-top: 1rem;
+}
+header .containerHeader1,.containerHeader2{
+  display: flex;
+  justify-content: space-around;
+}
+header .contactosHeader{
+display: flex;
+}
+header .contactosHeader div{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+header .contactosHeader div h3{
+  font-size: 1.4rem;
+  margin-right: 3rem;
+
+}
+header .contactosHeader i{
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+header .redesSociales{
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  align-items: center;
+  display: flex;
+}
+header .redesSociales i{
+  margin-left: 2rem;
+}
+header .containerHeader2{
+display: flex;
+}
+header .containerHeader2 figure{
+  width: 15rem;
+  margin: 0;
+}
+header .containerHeader2 figure img{
+  width: 100%;
+}
+header .navegacion{
+display: flex;
+align-items: center;
+}
+header .navegacion ul{
+  display: flex;
+}
+.menu > ul:nth-child(1) > li:nth-child(1){
+  margin-left: 0;
+}
+header .navegacion ul li{
+  list-style: none;
+  margin-left: 6rem;
+  font-size: 1.4rem;
+}
+header .navegacion ul a{
+  text-decoration: none;
+  color:white;
+}
+.hero figure{
+  margin: 0;
+}
+.hero figure img{
+  width: 100%;
+}
+main .titulo{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+main .titulo{
+  font-size: 5rem;
+  font-family:'changa';
+  color: #27304b;
+  display: flex;
+  justify-content: center;
+ 
+}
+main .titulo h2{
+  margin: 0;
+}
+main .videos{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  row-gap: 0;
+  width: 80%;
+  margin: 0 auto 10rem auto;
+  font-family: 'changa';
+
+}
+
+main .videos .video{
+  text-align: center;
+  font-size: 1.8rem;
+  color: #f15e42;
+}
+iframe{
+  border-radius: 20px;
+}
+
+footer{
+  background: linear-gradient(90deg, rgba(32,32,52,1) 23%, rgba(84,97,101,1) 100%); 
+  color: white;
+}
+footer .contactosHeader div i{
+  color: #f15e42;
+}
+footer .containerHeader1{
+  background: rgba(255,255,255,.1)
+}
+footer .containerHeader2{
+  margin-top: 1rem;
+}
+footer .containerHeader1,.containerHeader2{
+  display: flex;
+  justify-content: space-around;
+}
+footer .contactosHeader{
+display: flex;
+}
+footer .contactosHeader div{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+footer .contactosHeader div h3{
+  font-size: 1.4rem;
+  margin-right: 3rem;
+}
+footer .contactosHeader i{
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+footer .redesSociales{
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  align-items: center;
+  display: flex;
+}
+footer .redesSociales i{
+  margin-left: 2rem;
+}
+ .final{
+  display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin-bottom: 3rem;
+}
