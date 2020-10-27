@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <title>Consultorio Veterinario "Dr Miller"</title>
 </head>
 <body>
@@ -25,8 +26,8 @@
         </div>
       </section>
       <section class="redesSociales">
-        <i class="icon-facebook"></i>
-        <i class="icon-instagram"></i>
+        <a href="https://www.facebook.com/consultoriodrmiller"><i class="icon-facebook"></i></a>
+        <a href=""><i class="icon-instagram"></i></a>
       </section>
     </section>
     <section class="containerHeader2">
@@ -36,10 +37,11 @@
       <section class="navegacion navegacion2">
         <nav class="menu">
           <ul>
-            <li><a href="#">Servicios</a> </li> 
-            <li><a href="#">Personal</a></li>
+            <li><a href="./index.html">Inicio</a> </li> 
+            <li><a href="#servicios">Servicios</a> </li> 
+            <li><a href="#personal">Personal</a></li>
             <li><a href="./contactanos.html">Contactanos</a></li>
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
           </ul>
         </nav>
       </section>
@@ -59,17 +61,27 @@
       </figure>
       <div class="textoDescripcion">
         <h1>Bienvenido al Consultorio Veterinario Miller</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a href=""><button>Ver mas</button></a>
-      </div>
+        <p>
+          Bienvenidos al sitio web del Consultorio Veterinario 
+          'Dr. MILLER' en el cual encontraras toda la información
+           sobre quienes somos y que servicios tenemos, así como también 
+           información sobre nuestro equipo de trabajo, además de esto 
+            ver varios videos de los servicios que ofrecemos como de profilaxis,
+             cirugías y muchos mas
+        </p>
+        <p>Nos encantan los animales, son nuestra pasión, 
+          por ello los atendemos como si fueran nuestros, sabemos que son un miembro más de la
+           familia y lo importantes que son para cada uno de nuestros clientes.</p>
+<!--         <a href=""><button>Ver mas</button></a>
+ -->      </div>
     </section>
     <section class="caracteristicas">
       <div class="contenedorCaracteristica">
         
         <article class="caracteristica caracteristica1">
           <div class="textoCaracteristica">
-            <h2>Somos salud</h2>
-            <p>Servicio Veterinario</p>
+            <h2>Somos integridad</h2>
+            <p>Servicio honesto y etico</p>
           </div>
           <figure>
             <img src="./imagenes/caracteristica1.png" alt="">
@@ -77,8 +89,8 @@
         </article>
         <article class="caracteristica caracteristica2">
           <div class="textoCaracteristica">
-            <h2>Somos salud</h2>
-            <p>Servicio Veterinario</p>
+            <h2>Somos experiencia</h2>
+            <p>27 años de experiencia</p>
           </div>
           <figure>
           <img src="./imagenes/caracteristica2.png" alt="">
@@ -87,8 +99,8 @@
       </article>
       <article class="caracteristica caracteristica3">
         <div class="textoCaracteristica">
-          <h2>Somos salud</h2>
-          <p>Servicio Veterinario</p>
+          <h2>Somos cuidado</h2>
+          <p>Cuidado compasivo y un servicio excelente</p>
         </div>
         <figure>
           <img src="./imagenes/caracteristica3.png" alt="">
@@ -96,13 +108,13 @@
       </article>
     </div>
     <div class="textoFinalCaracteristica">
-      <p>Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum.</p>
+      <p>Nuestros valores estan fundamentados en la integridad en nuestras decisiones y el respeto hacia nuestros clientes y pacientes</p>
       <div class="areaContacto">
         <a href=""><button>Contactanos</button></a>
       </div>
     </div>
     </section>
-    <section class="servicios">
+    <section class="servicios" id="servicios">
       <h2>Nuestros Servicios</h2>
       <div class="contenedorServicios">
 
@@ -111,8 +123,12 @@
           <img src="./imagenes/servicio1.png" alt="">
         </figure>
         <div class="textoServicio">
-          <h3>Vacunacion</h3>
-          <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything</p>
+          <h3>Vacunación</h3>
+          <p>Contamos con planes de vacunación
+             y desparasitación para tu mascota y con 
+             un sistema que te ayuda a tener un seguimiento 
+             de las mismas
+          </p>
         </div>
       </article>
       <article class="servicio servicio2">
@@ -120,8 +136,8 @@
           <img src="./imagenes/seevicio2.png" alt="">
         </figure>
         <div class="textoServicio">
-          <h3>Vacunacion</h3>
-          <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything</p>
+          <h3>Procedimientos clínicos</h3>
+          <p>Realizamos profilaxis dental, drenaje de abscesos,curación de heridas</p>
         </div>
       </article>
       <article class="servicio servicio3">
@@ -129,8 +145,8 @@
           <img src="./imagenes/servicio3.png" alt="">
         </figure>
         <div class="textoServicio">
-          <h3>Vacunacion</h3>
-          <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything</p>
+          <h3>Consultas médicas</h3>
+          <p>Contamos con el equipo necesario para diagnosticar y tratar enfermedades</p>
         </div>
       </article>
       <article class="servicio servicio4">
@@ -138,38 +154,38 @@
           <img src="./imagenes/servicio4.png" alt="">
         </figure>
         <div class="textoServicio">
-          <h3>Vacunacion</h3>
-          <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything</p>
+          <h3>Cirugía</h3>
+          <p>Realizamos una amplia gama de cirugías como ligaduras, cesareas, hernias entre otras</p>
         </div>
       </article>
     </div>
 <!--       <a href=""><button>Ver todos los servicios</button></a>
  -->    </section>
-    <section class="aboutUs">
+    <section class="aboutUs" id="nosotros">
       <figure>
         <img src="./imagenes/aboutus.png" alt="">
       </figure>
       <div class="textoAboutUs">
         <h2>Acerca de nosotros</h2>
-        <p>Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
-        <h3>Nuestra filosofia</h3>
-        <p>Maecenas at arcu risus. Donec commodo sodales ex, scelerisque laoreet nibh hendrerit id. In aliquet magna nec lobortis maximus. Etiam rhoncus leo a dolor placerat, nec elementum ipsum convall.</p>
+        <p>El consultorio veterinario "Dr.Miller" es un centro especializado en la atención integral de la mascota, desde hace mas de 27 años ofrecemos a nuestros clientes una completa atención para sus mascotas.</p>
+        <h3>Nuestra filosofía</h3>
+        <p>Nuestra filosofía se centra en el cuidado de la salud de nuestros pacientes enfocada en el diagnostico, manejo médico y quirúrgico </p>
       </div>
     </section>
-    <section class="nuestroEquipo">
+    <section class="nuestroEquipo" id="personal">
       <h2>Nuestro Equipo</h2>
       <div class="contenedorEquipo">
 
         <article class="miembro miembro1">
           <figure>
-            <img src="./imagenes/team1.jpg" alt="">
+            <img src="./imagenes/team1.jpeg" alt="">
           </figure>
           <h2>Miller Aveiga</h2>
           <p>Veterinario</p>
         </article>
         <article class="miembro miembro2">
           <figure>
-          <img src="./imagenes/team2.jpg" alt="">
+          <img src="./imagenes/team2.jpeg" alt="">
         </figure>
         <h2>Miller Aveiga</h2>
         <p>Veterinario</p>
@@ -177,6 +193,27 @@
       <article class="miembro miembro3">
         <figure>
           <img src="./imagenes/team3.jpg" alt="">
+        </figure>
+        <h2>Miller Aveiga</h2>
+        <p>Veterinario</p>
+      </article>
+        <article class="miembro miembro1">
+          <figure>
+            <img src="./imagenes/team3.jpg" alt="">
+          </figure>
+          <h2>Miller Aveiga</h2>
+          <p>Veterinario</p>
+        </article>
+        <article class="miembro miembro2">
+          <figure>
+          <img src="./imagenes/team1.jpeg" alt="">
+        </figure>
+        <h2>Miller Aveiga</h2>
+        <p>Veterinario</p>
+      </article>
+      <article class="miembro miembro3">
+        <figure>
+          <img src="./imagenes/team2.jpeg" alt="">
         </figure>
         <h2>Miller Aveiga</h2>
         <p>Veterinario</p>
