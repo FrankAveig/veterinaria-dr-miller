@@ -452,6 +452,24 @@ body > main > section.final > div > h4:nth-child(5){
   font-size:1.6rem;
   margin: 0;
 }
+.navegacion2{
+  display: none;
+}
+.burger-button{
+  display: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0;
+  background :  rgba(75 ,	167 ,	230, .8);
+  line-height: 4rem;
+  text-align: center;
+  position: fixed;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  margin: 0.3rem 0 0 0.3rem;
+  z-index: 3;
+}
 
 @media screen and (max-width :1326px){
   main .descripcion1{
@@ -539,6 +557,59 @@ main .caracteristicas .contenedorCaracteristica{
   }
 }
 @media screen and (max-width:750px){
+header .containerHeader2{
+display: none;
+}
+header .navegacion ul{
+  display: none;
+}
+header .redesSociales{
+  display: none;
+}
+.burger-button{
+  margin-top: 6rem;
+  display: block;
+  z-index: 3;}
+  .navegacion2{
+    display: block;
+  }
+  .navegacion2 nav{
+    position: fixed;
+    background: rgba(38, 38,38, .8);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    left: -100vw;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+  }
+  .navegacion2 nav.is-active{
+    left: 0vw;
+  }
+  .menu > ul:nth-child(1) > li:nth-child(1){
+  margin: auto;
+}
+
+.navegacion nav ul{
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.navegacion nav ul li{
+  margin: 4rem;
+}
+.navegacion nav ul li a:hover{
+  color: #84c54e;
+}
+.navegacion nav ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
 .final{
   display: block;
 }
@@ -547,6 +618,9 @@ map{
 }
 }
 @media screen and (max-width:600px){
+  header .contactosHeader .email{
+    display: none;
+  }
   main .aboutUs{
     grid-template-rows: 1fr;
   }
@@ -556,4 +630,15 @@ map{
   main .aboutUs figure{
     display: none;
   }
+  footer .contactosHeader{
+    flex-direction: column;
+    align-items: center;
+  }
+footer .containerHeader1,.containerHeader2{
+  flex-direction: column;
+  align-items: center;
+}
+footer .redesSociales i{
+  margin: 0;
+}
 }

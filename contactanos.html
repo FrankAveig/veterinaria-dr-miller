@@ -8,6 +8,16 @@
     <title>Consultorio Veterinario "Dr Miller"</title>
 </head>
 <body>
+  <i class="icon-menu burger-button"></i>
+  <section class="navegacion navegacion2">
+    <nav class="menu">
+      <ul>
+        <li><a href="./index.html">Inicio</a> </li> 
+            <li><a href="./videos.html">Videos</a> </li> 
+           
+      </ul>
+    </nav>
+  </section>
   <header>
     <section class="containerHeader1">
 
@@ -37,10 +47,9 @@
       <section class="navegacion navegacion2">
         <nav class="menu">
           <ul>
-            <li><a href="#">Servicios</a> </li> 
-            <li><a href="#">Personal</a></li>
-            <li><a href="#">Contactanos</a></li>
-            <li><a href="#">Nosotros</a></li>
+            <li><a href="./index.html">Inicio</a> </li> 
+            <li><a href="./videos.html">Videos</a> </li> 
+           
           </ul>
         </nav>
       </section>
@@ -107,5 +116,17 @@
       </section>
     </section>
     </footer>
+    <script>
+      const menu = document.querySelector('.menu');
+      const burgerButton = document.querySelector('.burger-button');
+      burgerButton.addEventListener('click',hideShow);
+      function hideShow(){
+      if (menu.classList.contains('is-active')){
+        menu.classList.remove('is-active');
+      }else{
+      menu.classList.add('is-active');
+      }
+      }
+    </script>
   </body>
   </html>

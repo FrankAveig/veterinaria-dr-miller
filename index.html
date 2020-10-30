@@ -8,6 +8,19 @@
   <title>Consultorio Veterinario "Dr Miller"</title>
 </head>
 <body>
+  <i class="icon-menu burger-button"></i>
+    <section class="navegacion navegacion2">
+      <nav class="menu">
+        <ul>
+          <li><a href="./index.html">Inicio</a> </li> 
+          <li><a href="./videos.html">Videos</a> </li> 
+          <li><a href="#servicios">Servicios</a> </li> 
+          <li><a href="#personal">Personal</a></li>
+          <li><a href="./contactanos.html">Contactanos</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+        </ul>
+      </nav>
+    </section>
   <header>
     <section class="containerHeader1">
 
@@ -38,6 +51,7 @@
         <nav class="menu">
           <ul>
             <li><a href="./index.html">Inicio</a> </li> 
+            <li><a href="./videos.html">Videos</a> </li> 
             <li><a href="#servicios">Servicios</a> </li> 
             <li><a href="#personal">Personal</a></li>
             <li><a href="./contactanos.html">Contactanos</a></li>
@@ -185,38 +199,38 @@
         </article>
         <article class="miembro miembro2">
           <figure>
-          <img src="./imagenes/team2.jpeg" alt="">
+            <img src="./imagenes/team1.jpeg" alt="">
         </figure>
-        <h2>Miller Aveiga</h2>
+        <h2>Dario Aveiga</h2>
         <p>Veterinario</p>
       </article>
       <article class="miembro miembro3">
+        <figure>
+          <img src="./imagenes/team4.jpg" alt="">
+        </figure>
+        <h2>Irene Vera</h2>
+        <p>Auxiliar en anestesia</p>
+      </article>
+      <article class="miembro miembro1">
+        <figure>
+          <img src="./imagenes/team2.jpeg" alt="">
+        </figure>
+        <h2>Jessica Carrera</h2>
+        <p>Administradora</p>
+      </article>
+      <article class="miembro miembro2">
         <figure>
           <img src="./imagenes/team3.jpg" alt="">
         </figure>
-        <h2>Miller Aveiga</h2>
-        <p>Veterinario</p>
-      </article>
-        <article class="miembro miembro1">
-          <figure>
-            <img src="./imagenes/team3.jpg" alt="">
-          </figure>
-          <h2>Miller Aveiga</h2>
-          <p>Veterinario</p>
-        </article>
-        <article class="miembro miembro2">
-          <figure>
-          <img src="./imagenes/team1.jpeg" alt="">
-        </figure>
-        <h2>Miller Aveiga</h2>
-        <p>Veterinario</p>
+        <h2>Jhoisy Arteaga</h2>
+        <p>Asistente</p>
       </article>
       <article class="miembro miembro3">
         <figure>
-          <img src="./imagenes/team2.jpeg" alt="">
+          <img src="./imagenes/team5.jpg" alt="">
         </figure>
-        <h2>Miller Aveiga</h2>
-        <p>Veterinario</p>
+        <h2>Stefania Barberan</h2>
+        <p>Asistente</p>
       </article>
     </div>
   </section>
@@ -262,5 +276,17 @@
 
   
   </footer>
+  <script>
+    const menu = document.querySelector('.menu');
+    const burgerButton = document.querySelector('.burger-button');
+    burgerButton.addEventListener('click',hideShow);
+    function hideShow(){
+    if (menu.classList.contains('is-active')){
+      menu.classList.remove('is-active');
+    }else{
+    menu.classList.add('is-active');
+    }
+    }
+  </script>
 </body>
 </html>
