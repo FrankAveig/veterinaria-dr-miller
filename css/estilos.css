@@ -110,6 +110,10 @@ header .redesSociales{
   align-items: center;
   display: flex;
 }
+ section.redesSociales > a{
+  color: white;
+    text-decoration: none;
+}
 header .redesSociales i{
   margin-left: 2rem;
 }
@@ -641,4 +645,10 @@ footer .containerHeader1,.containerHeader2{
 footer .redesSociales i{
   margin: 0;
 }
+}
+
+@media screen and (max-width:400px){
+  main .aboutUs .textoAboutUs h2{
+    text-align: center;
+  }
 }

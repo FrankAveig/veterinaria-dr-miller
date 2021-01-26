@@ -32,12 +32,12 @@
         </div>
         <div class="telefono">
           <i class="icon-mobile"></i>
-          <h3>0991269373</h3>
+          <h3>0990544395</h3>
         </div>
       </section>
       <section class="redesSociales">
-        <i class="icon-facebook"></i>
-        <i class="icon-instagram"></i>
+        <a href="https://www.facebook.com/consultoriodrmiller"><i class="icon-facebook"></i></a>
+        <a href="https://www.instagram.com/milleraveiga/"><i class="icon-instagram"></i></a>
       </section>
     </section>
     <section class="containerHeader2">
@@ -90,12 +90,47 @@
           </div>
         </section> 
   </main>
+  <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v9.0'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="1520927274864491"
+logged_in_greeting="Hola!! ¿Necesitas ayuda?"
+logged_out_greeting="Hola!! ¿Necesitas ayuda?">
+</div>
+<a class="app-whatsapp" id="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=593990544395&amp;text=Hola!&nbsp;necesito&nbsp;información&nbsp;" style="	position: fixed;
+right: 24px;
+bottom: 25px;
+width: 60px;
+z-index: 1000;
+display: block;
+bottom: 95px;
+">
+  <img src="./imagenes/whatsapp.png" alt="" style="width: 65px;">
+</a>
   <footer>
     <section class="containerHeader1">
       <section class="contactosHeader">
         <div class="ubicacion">
           <i class="icon-location"></i>
-          <h3>Ulpiano paez 198 y atahualpa</h3>
+          <h3>Chone - Manabí - Ecuador</h3>
         </div>
         <div class="email">
           <i class="icon-envelope-o"></i>
@@ -103,12 +138,12 @@
         </div>
         <div class="telefono">
           <i class="icon-mobile"></i>
-          <h3>0991269373</h3>
+          <h3>0990544395</h3>
         </div>
       </section>
       <section class="redesSociales">
-        <i class="icon-facebook"></i>
-        <i class="icon-instagram"></i>
+        <a href="https://www.facebook.com/consultoriodrmiller"><i class="icon-facebook"></i></a>
+        <a href="https://www.instagram.com/milleraveiga/"><i class="icon-instagram"></i></a>
       </section>
     </section>
     </footer>

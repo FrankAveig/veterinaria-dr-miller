@@ -68,6 +68,7 @@ html{
 body{
   max-width: 1366px;
   margin: auto;
+  font-family: 'karla';
 }
 header{
   background: linear-gradient(90deg, rgba(32,32,52,1) 23%, rgba(84,97,101,1) 100%); 
@@ -140,12 +141,56 @@ header .navegacion ul li{
 header .navegacion ul a{
   text-decoration: none;
   color:white;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 .hero figure{
   margin: 0;
 }
 .hero figure img{
   width: 100%;
+  display: flex;
+}
+main h1{
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 800;
+  color: #333333;
+}
+
+main .descripcion1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+}
+main .descripcion1 img{
+  width: 100%;
+  
+}
+
+main .descripcion1 .textoDescripcion h1{
+  font-size: 4.4rem;
+}
+main .descripcion1 .textoDescripcion p{
+  text-align: justify;
+  width: 70%;
+  font-size: 1.6rem;
+  line-height: 2;
+  color:#707070;
+}
+button{
+  filter: drop-shadow(6px 3px 3px #3F4144);
+  font-size: 1.8rem;
+  height: 4rem;
+  width: 15rem;
+  border-radius: 2rem;
+  border: unset;
+  background:#316c7a;
+  color: white;
+  font-family: 'alata';
+  padding: 0;
+  cursor: pointer;
+  margin-top: 1rem;
 }
 main .titulo{
   display: flex;
@@ -179,7 +224,22 @@ main .videos .video{
   font-size: 1.8rem;
   color: #f15e42;
 }
-iframe{
+.responsiveContent {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.2%;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
+
+}
+.responsiveContent iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -229,4 +289,150 @@ footer .redesSociales i{
   display: grid;
  grid-template-columns: 1fr 1fr;
  margin-bottom: 3rem;
+}
+map{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+map h3{
+  color: black;
+  font-size: 3.2rem;
+  margin-top: 0;
+}
+.horario{
+  grid-column-start: 1;
+ grid-row-start: 1;
+ text-align: center;
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .horario h3{
+  margin: 1rem 0 0 0;
+  font-size: 3.4rem;
+  color: black;
+}
+.horario h4{
+  font-size: 2.2rem;
+  margin:1rem;
+}
+body > main > section.final > div > h4:nth-child(5){
+  margin-top: 3rem;
+}
+.horario p{
+  font-size:1.6rem;
+  margin: 0;
+}
+.navegacion2{
+  display: none;
+}
+.burger-button{
+  display: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0;
+  background :  rgba(75 ,	167 ,	230, .8);
+  line-height: 4rem;
+  text-align: center;
+  position: fixed;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  margin: 0.3rem 0 0 0.3rem;
+  z-index: 3;
+}
+
+section.redesSociales > a{
+  color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:770px){
+  main .videos{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width:750px){
+header .containerHeader2{
+display: none;
+}
+header .navegacion ul{
+  display: none;
+}
+header .redesSociales{
+  display: none;
+}
+
+.burger-button{
+  margin-top: 6rem;
+  display: block;
+  z-index: 3;}
+  .navegacion2{
+    display: block;
+  }
+  .navegacion2 nav{
+    position: fixed;
+    background: rgba(38, 38,38, .8);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    left: -100vw;
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+  }
+  .navegacion2 nav.is-active{
+    left: 0vw;
+  }
+  .menu > ul:nth-child(1) > li:nth-child(1){
+  margin: auto;
+}
+
+.navegacion nav ul{
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.navegacion nav ul li{
+  margin: 4rem;
+}
+.navegacion nav ul li a:hover{
+  color: #84c54e;
+}
+.navegacion nav ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.final{
+  display: block;
+}
+map{
+  margin: 3rem 0;
+}
+}
+@media screen and (max-width:600px){
+  header .contactosHeader .email{
+    display: none;
+  }
+  
+  footer .contactosHeader{
+    flex-direction: column;
+    align-items: center;
+  }
+footer .containerHeader1,.containerHeader2{
+  flex-direction: column;
+  align-items: center;
+}
+footer .redesSociales i{
+  margin: 0;
+}
 }

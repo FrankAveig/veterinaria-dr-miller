@@ -110,6 +110,10 @@ header .redesSociales{
   align-items: center;
   display: flex;
 }
+section.redesSociales > a{
+  color: white;
+    text-decoration: none;
+}
 header .redesSociales i{
   margin-left: 2rem;
 }
@@ -129,6 +133,10 @@ align-items: center;
 }
 header .navegacion ul{
   display: flex;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
 }
 .menu > ul:nth-child(1) > li:nth-child(1){
   margin-left: 0;
@@ -334,7 +342,7 @@ footer .redesSociales i{
 @media screen and (max-width :1076px){
 
 }
-}
+
 @media screen and (max-width: 1000px){
 
 }
